@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Audio to Text</title>
+  <style>
+    /* Custom CSS styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .audio-form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .audio-form h2 {
+      color: #343a40;
+      margin-top: 0;
+    }
+
+    .audio-form label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .audio-form input[type="file"] {
+      margin-bottom: 20px;
+    }
+
+    .audio-form button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .audio-form button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>React Audio to Text</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="audio-form">
+        <h2>Upload Audio</h2>
+        <form>
+          <label for="audioFile">Select Audio File:</label>
+          <input type="file" id="audioFile" accept="audio/*">
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 React Audio to Text</p>
+  </footer>
+</body>
+</html>
