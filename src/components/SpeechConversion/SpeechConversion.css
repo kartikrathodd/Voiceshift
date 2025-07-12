@@ -1,0 +1,42 @@
+.speech-conversion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .speech-conversion h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .speech-conversion button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .speech-conversion button:hover {
+    background-color: #0056b3;
+  }
+  
+  .speech-conversion div {
+    margin-top: 20px;
+  }
+  
+  .speech-conversion h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .speech-conversion p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  

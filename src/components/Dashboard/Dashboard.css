@@ -1,0 +1,44 @@
+.dashboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .dashboard-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-options {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dashboard-options > * {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .dashboard-options > *:hover {
+    transform: translateY(-5px);
+  }
+  
+  .analysis-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .analysis-button:hover {
+    background-color: #0056b3;
+  }
+  

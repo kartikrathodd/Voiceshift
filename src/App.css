@@ -1,0 +1,13 @@
+.app {
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
